@@ -152,7 +152,7 @@ function editListItem(event) {
         
         console.log(listItem);
         if(newInputValue == '' || newInputValue.trim() == '') {
-            alert('Иди ты нахуй, дурачок');
+            alert('Введите значение!');
         } else {
             listItem.innerText = newInputValue;
             editListItemTxt.replaceWith(listItem);
